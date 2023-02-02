@@ -1,0 +1,35 @@
+body{
+    background-color: #d1e6f8;
+}
+
+.tata{
+    margin: auto;
+    width: 28%;
+    background-color: white;
+ 
+    height: 21%;
+    margin-top: 80px;
+    border-radius: 20px;
+}
+.tata img{
+    height: 300px;
+    padding-left: 26px;
+    padding-top: 16px;
+}
+.text{
+    padding-left: 20px;
+    padding-bottom: 16px;
+}
+
+@media only screen and (min-width: 376px) and (max-width: 760px)  {
+.tata{
+    width:auto;
+    margin-top: 80px;
+    border-radius: 20px;
+    margin-left: 9px;
+    margin-right: 13px;
+}    
+.tata img{
+    padding-left: 20px;
+}
+}
